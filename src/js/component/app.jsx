@@ -1,7 +1,8 @@
 import React from "react";
 import {Navbar} from "./navbar.jsx";
 import {Jumbotron} from "./jumbotron.jsx";
-import {Card} from "./card.jsx";
+import {Container} from "./container.jsx";
+import {Footer} from "./footer.jsx";
 
 //include images into your bundle
 //import rigoImage from "../../img/rigo-baby.jpg";
@@ -12,7 +13,8 @@ const App = () => {
 		<>
 		<div><Navbar/></div>
 		<div className="container"><Jumbotron/></div>
-		<div className="container"><Card/><Card/><Card/><Card/></div>
+		<Container/>
+		<Footer/>
 		</>
 	);
 };
