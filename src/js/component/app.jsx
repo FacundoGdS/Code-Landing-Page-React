@@ -12,7 +12,7 @@ const App = () => {
 		<>
 		<div><Navbar/></div>
 		<div className="container"><Jumbotron/></div>
-		<div><Navbar/></div>
+		<div className="container"><Card/><Card/><Card/><Card/></div>
 		</>
 	);
 };
